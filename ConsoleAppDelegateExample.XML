@@ -1,0 +1,98 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>ConsoleAppDelegateExample</name>
+    </assembly>
+    <members>
+        <member name="M:ConsoleAppDelegateExample.DelegateEventDemo.square(System.Int32)">
+            <summary>
+             This method is used for finding the area of square
+            </summary>
+            <param name="x"></param>
+        </member>
+        <member name="M:ConsoleAppDelegateExample.DelegateEventDemo.cube(System.Int32)">
+            <summary>
+            This method is used for finding the area of cube
+            </summary>
+            <param name="x"></param>
+        </member>
+        <member name="M:ConsoleAppDelegateExample.DelegateEventDemo.eventDelegateCall">
+            <summary>
+            Enter valid number except Zero
+            </summary>
+        </member>
+        <member name="T:ConsoleAppDelegateExample.usere1">
+            <summary>
+            notify by user1
+            </summary>
+        </member>
+        <member name="T:ConsoleAppDelegateExample.usere2">
+            <summary>
+            notify by user2
+            </summary>
+        </member>
+        <member name="T:ConsoleAppDelegateExample.addDelegete">
+            <summary>
+            delegate decleration
+            </summary>
+            <param name="a"></param>
+            <param name="b"></param>
+        </member>
+        <member name="M:ConsoleAppDelegateExample.DelegeteDemo.Main(System.String[])">
+            <summary>
+            main method is calling.
+            </summary>
+            <param name="args"></param>
+        </member>
+        <member name="M:ConsoleAppDelegateExample.DelegeteDemo.useDelegate">
+            <summary>
+            invoke the method with the help of delegate
+            </summary>
+        </member>
+        <member name="M:ConsoleAppDelegateExample.DelegeteDemo.useAnonymousDelegate">
+            <summary>
+            we use Anonymous method  through delegate  
+            </summary>
+        </member>
+        <member name="M:ConsoleAppDelegateExample.DelegeteDemo.useDelegateLambdaExp">
+            <summary>
+            we use Lambda Expresition in delegates
+            </summary>
+        </member>
+        <member name="M:ConsoleAppDelegateExample.DelegeteDemo.Rectangle.useRectDelegate">
+            <summary>
+            multicast delegate we use
+            </summary>
+        </member>
+        <member name="M:ConsoleAppDelegateExample.GenericDelegate.AddNums1(System.Int32,System.Single,System.Double)">
+            <summary>
+            AddNums1 Method use for adding three no. and its return type is double
+            </summary>
+            <param name="x"></param>
+            <param name="y"></param>
+            <param name="z"></param>
+            <returns></returns>
+            
+        </member>
+        <member name="M:ConsoleAppDelegateExample.GenericDelegate.AddNums2(System.Int32,System.Single,System.Double)">
+            <summary>
+            AddNums2 Method use for adding three no. and its no return type
+            </summary>
+            <param name="x"></param>
+            <param name="y"></param>
+            <param name="z"></param>
+        </member>
+        <member name="M:ConsoleAppDelegateExample.GenericDelegate.checkLength(System.String)">
+            <summary>
+            checkLength Method use for checking string length. and its return type is bool
+            </summary>
+            <param name="str"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ConsoleAppDelegateExample.GenericDelegate.useGenericDelegate">
+            <summary>
+            useGenericDelegate method is used for call all the method through generic delegate. 
+            </summary>
+        </member>
+    </members>
+</doc>
